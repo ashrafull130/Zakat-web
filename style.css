@@ -1,0 +1,423 @@
+:root{
+    --red:rgb(202, 15, 15);
+    --primary:rgb(234, 238, 245);
+    --white:white;
+    --black:rgb(20, 19, 19);
+    --border-bottom:1px solid rgb(231, 21, 21);
+    --container-lg:90%;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+.btn{
+    padding:10px 30px ;
+    color:var(--primary);
+    background-color: var(--red);
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+
+}
+.container{
+    width: var(--container-lg);
+    margin:0 auto;
+    
+}
+
+/* header start here */
+#header{
+    width: 100%;
+    height: 100vh;
+ 
+}
+
+.header-banner{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient( to right,black , rgba(17, 18, 18, 0)), url(Picture/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+   
+}
+
+.header_caption{
+    width: 500px;
+    height: auto;
+    margin-left: 10rem;
+  
+}
+.header-title{
+    color:var(--white);
+    font-size: 42px;
+    font-weight: 600;
+
+}
+.header-discription{
+    font-size: 20px;
+    color:var(--white);
+    margin: 2rem 0;
+}
+
+/* header section end here */
+
+
+/*  their lives depend on your donation section start here  */
+
+#media-donate{
+
+    width: 100%;
+    height: 90vh; 
+    margin-top: 2rem;
+    /* background-color: aqua; */
+}
+
+.donate-container{
+  display: flex; 
+  padding: 0;
+  width: 90%;
+  height: auto;
+}
+
+.donate-container > article{
+    width: 50%;
+    height:80vh;
+    position: relative; 
+    
+}
+
+.video-content{
+    width:90%; 
+    height:70vh;
+    /* background-color: red; */
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.media-donate-box{
+    padding: 10px 40px;
+}
+.media-donate-title{
+    font-size: 32px;
+    padding:25px 0 5px; 
+    margin-top: 2rem; 
+}
+
+.media-donate-disc{
+    font-size: 22px;
+    font-weight: 500;
+    margin:15px 0 30px;
+}  
+
+/*  their lives depend on your donation section end here  */
+
+
+/* they need our help section start here */
+#need-help{
+    margin:2rem 0;
+    width: 100%;
+    height: 80vh;
+    
+}
+.need-help-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.need-help-container > article{
+    width: 50%;
+    height: 80vh;
+    /* background-color: bisque; */
+
+}
+.help-child-img{
+    width: 90%;
+    height: 100%;
+    padding:0 2rem;
+}
+.need-help-box{
+    width: 500px;
+}
+.need-help-head{
+    font-size: 32px;
+    padding:1rem 2rem; 
+    line-height: 4rem;
+}
+.need-help-disc{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding:0 3rem 2rem 2rem ;
+}
+.btn-style{
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+/* they need our help section end here */
+
+
+/* their lives depend  section start here */
+
+#their-live{
+    margin:1rem 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+   
+}
+.their-live-container{
+    margin: 0 auto;
+
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:0 auto;
+
+}
+.box-1{
+    width:48%;
+    height: 300px;
+    margin: 0 auto;
+}
+.box-inner{
+    width: 450px;
+    height: 260px;
+     margin: 0 auto;
+    background-color: rgba(246, 114, 102, 0.358);
+    display:flex;
+    padding: 1rem 2rem;
+    text-align: start;
+    transition: 0.2 all linear;
+    cursor:pointer;
+
+}
+.box-inner:hover{
+    border: 2px solid black;
+}
+
+.icon{
+    width: 240px;
+    height: 100px;
+
+}
+.icon-style{
+    color:rgb(90, 6, 6);
+    font-size: 35px;
+}
+.box-title{
+    padding-bottom: 1rem ;
+}
+.box-disc{
+    font-size: 18px ;
+    font-weight: normal;
+    line-height:2rem;
+
+}
+.live-header-title{
+    font-size: 35px;
+    font-weight: 600;
+    padding:1rem 0;
+}
+.live-header-disc{
+   font-size: 20px;
+   color: rgba(12, 10, 10, 0.701);
+   padding-bottom: 1.5rem;
+}
+/* their lives depend  section end here */
+
+/* poor people photogallary section start here */
+#photo-gallary{
+    width: 100%;
+    height: 65vh;
+    margin: 2rem 0;
+}
+.photo-gallary-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    justify-content:space-evenly;
+    width: 80%;
+}
+.img-size{
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+div.photo-text{
+    width: 200px;
+    font-size: 23px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding: .5rem 0 1rem 2rem ;
+    
+}
+/* poor people photogallary section end here */
+
+/* donate-fund section start here */
+#donate-fund{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+}
+.donate-fund-main{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+h1.donate-fund-title{
+    font-size: 35px;
+    font-weight: bold;
+    width: 600px;
+    position: relative;
+    left: 350px;
+ 
+}
+p.donate-fund-disc{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+    width: 700px;
+    position: relative;
+    left: 300px;
+    padding-bottom:1rem ;
+    
+}
+.card{
+    width:321px;
+    height: auto;
+    margin-right:25px;
+    background-color:aqua;
+    box-shadow: 0 4px 6px 4px rgba(26, 25, 25, 0.45);
+    transition: all .3s linear ;
+    transition-duration: .3s;
+
+ 
+}
+.card:hover{
+    transform: translateY(-40px);
+}
+.card-img{
+    width: 100%;
+    height: 260px;
+
+}
+.card-footer{
+    border:1px solid black;
+    margin-top: -5px;
+    background-color: #fff;
+ 
+}
+.card-text{
+    font-weight: 500;
+    text-justify: auto;
+    padding: 15px 5px;
+}
+.btn-donate{
+    padding: 10px 20px ;
+    background-color: var(--red);
+    border:none;
+    border-radius: 10px;
+    color:var(--white);
+    margin:10px 0;
+    transition: 0.2 linear ease-in-out;
+    cursor: pointer;
+}
+
+.btn-donate:hover{
+    background-color: rgb(46, 190, 234);
+
+}
+
+/* donate-fund section end here */
+
+/* footer section start here */
+#footer{
+   width: 100%;
+   height: 40vh;
+   background-color: rgb(17, 7, 7);    
+   margin:3rem 0 0 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.text-footer{
+    width: 30%;
+    height: 30vh;
+}
+.footer-title{
+    font-size: 35px;
+    color:rgb(226, 9, 9);
+    font-weight: 700;
+    font-family: 'Cookie', cursive;
+    padding: 30px 0 10px 0;
+
+}
+.copyright{
+    font-size: 20px;
+    color:#fff;
+    line-height: 32px;
+}
+.contact-text{
+    font-size:20px;
+    color: var(--white);
+    padding:4px 0;
+
+
+}
+.input-custom{
+    width: 260px;
+    height: 30px;
+    margin: 13px 0;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    border-radius: 5px;
+    padding:0 10px;
+
+}
+.input-custom:hover{
+    transform: scale(1.2);
+
+}
+.btn-custom{
+    padding:7px 15px ;
+    color:#fff;
+    background-color: rgb(94, 106, 237);
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+
+.btn-custom:hover{
+    background-color: rgb(8, 203, 203);
+
+}
